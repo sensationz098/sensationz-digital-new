@@ -1,3 +1,6 @@
 img {
-    width: 25rem;
+  width: 25rem;
+}
+.ser {
+  overflow-x: hidden;
 }

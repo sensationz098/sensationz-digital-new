@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./SocialMediaManagementStyle.css";
-import bannerImg from "../../../assets/banner/socialMedia.png";
-
+import { socialban } from "./../../../assets";
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
 import Block1 from "../../../Components/ServicePageComponents/Block1/Block1";
@@ -38,9 +37,9 @@ export default function SocialMediaManagement() {
           />
         </div>
       ) : (
-        <>
+        <div className="ser">
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          <Banner bannerImg={socialban} />
           <Block1
             leftImg={img1}
             title={"Our Vision"}
@@ -89,7 +88,7 @@ export default function SocialMediaManagement() {
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />
           </div>
-        </>
+        </div>
       )}
     </>
   );

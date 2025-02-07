@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./BrandPromotionStyle.css";
-import bannerImg from "../../../assets/banner/brandPromotion.png";
+import { brandban } from "./../../../assets";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
@@ -38,9 +38,9 @@ export default function BrandPromotion() {
           />
         </div>
       ) : (
-        <>
+        <div className="ser">
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          <Banner bannerImg={brandban} />
           <Block1
             leftImg={img1}
             title={"Our Vision"}
@@ -89,7 +89,7 @@ export default function BrandPromotion() {
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />
           </div>
-        </>
+        </div>
       )}
     </>
   );

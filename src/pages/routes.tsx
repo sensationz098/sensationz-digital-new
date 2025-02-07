@@ -11,6 +11,7 @@ import SocialMediaManagement from "./AllServices/SocialMediaManagement/SocialMed
 import VideoEditing from "./AllServices/VideoEditing/VideoEditing";
 import WebDesigning from "./AllServices/WebDesigning/WebDesigning";
 import BrandPromotion from "./AllServices/BrandPromotion/BrandPromotion";
+import Policy from "./Policy/Policy";
 
 export const routes = createBrowserRouter(
   createRoutesFromElements(
@@ -25,8 +26,7 @@ export const routes = createBrowserRouter(
       <Route path="services/videoediting" element={<VideoEditing />} />
       <Route path="services/webdesigning" element={<WebDesigning />} />
       <Route path="services/brandpromotion" element={<BrandPromotion />} />
-      {/*/>
-      <Route path="/PrivacyPolicy" element={<Policy />} />  */}
+      <Route path="/PrivacyPolicy" element={<Policy />} /> */
     </Route>
   )
 );

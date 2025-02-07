@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./SeoStyle.css";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
-import { bannerImg, seo as img1, seo2 as img2 } from "./../../../assets";
+import { seoban, seo as img1, seo2 as img2 } from "./../../../assets";
 import Block1 from "../../../Components/ServicePageComponents/Block1/Block1";
 import Block2 from "../../../Components/ServicePageComponents/Block2/Block2";
 import Block3 from "../../../Components/ServicePageComponents/Block3/Block3";
@@ -35,9 +35,9 @@ export default function Seo() {
           />
         </div>
       ) : (
-        <>
+        <div className="ser">
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          <Banner bannerImg={seoban} />
           <Block1
             leftImg={img1}
             title={"Top Search Engine Optimization Company"}
@@ -84,7 +84,7 @@ export default function Seo() {
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />
           </div>
-        </>
+        </div>
       )}
     </>
   );

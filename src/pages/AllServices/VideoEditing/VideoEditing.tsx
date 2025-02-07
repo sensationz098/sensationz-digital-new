@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./VideoEditingStyle.css";
-import bannerImg from "../../../assets/banner/videoEditing.png";
+import { videoban } from "./../../../assets";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
@@ -38,9 +38,9 @@ export default function VideoEditing() {
           />
         </div>
       ) : (
-        <>
+        <div className="ser">
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          <Banner bannerImg={videoban} />
           <Block1
             leftImg={img1}
             title={
@@ -91,7 +91,7 @@ export default function VideoEditing() {
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />
           </div>
-        </>
+        </div>
       )}
     </>
   );

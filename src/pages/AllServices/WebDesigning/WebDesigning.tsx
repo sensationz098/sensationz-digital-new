@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./WebDesigningStyle.css";
-import bannerImg from "../../../assets/banner/webDesigning.png";
+import { webban } from "./../../../assets";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
@@ -25,7 +25,7 @@ export default function WebDesigning() {
     }, 1000);
   }, []);
   return (
-    <>
+    <div className="ser">
       {loading ? (
         <div className="loader-cover">
           <BeatLoader
@@ -40,7 +40,7 @@ export default function WebDesigning() {
       ) : (
         <>
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          <Banner bannerImg={webban} />
           <Block1
             leftImg={img1}
             title={"Best Web Designing Company Offering Web Design Services"}
@@ -89,6 +89,6 @@ export default function WebDesigning() {
           </div>
         </>
       )}
-    </>
+    </div>
   );
 }

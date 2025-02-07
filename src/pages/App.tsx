@@ -29,7 +29,7 @@ function App() {
         <>
           <Navbar />
           <Hero />
-          <h3>Hello</h3>
+
           <div className="container">
             <Title title={"our services"} subtitle={"what we offer"} />
             <Services />

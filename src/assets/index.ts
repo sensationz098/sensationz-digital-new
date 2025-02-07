@@ -7,6 +7,14 @@ import programIcon1 from "./imgAssets/program-icon-1.png";
 import programIcon2 from "./imgAssets/program-icon-2.png";
 import programIcon3 from "./imgAssets/program-icon-3.png";
 
+//banner
+import seoban from "./banner/seo.png";
+import webban from "./banner/webDesigning.png";
+import grapban from "./banner/graphicDesigning.png";
+import socialban from "./banner/socialMedia.png";
+import videoban from "./banner/videoEditing.png";
+import brandban from "./banner/brandPromotion.png";
+
 // servicse
 import seo from "./services-img/seo.jpg";
 import seo2 from "./services-img/seo2.jpg";
@@ -89,4 +97,10 @@ export {
   MenuIcon,
   down,
   up,
+  seoban,
+  webban,
+  grapban,
+  socialban,
+  videoban,
+  brandban,
 };
