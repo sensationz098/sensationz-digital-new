@@ -32,7 +32,10 @@ export default function Footer() {
       </div>
 
       <div className="foot2">
-        <p>© 2024 Sensationz Media & Arts pvt. ltd. | All rights reserved </p>
+        <p>
+          © {new Date().getFullYear()} Sensationz Media & Arts Pvt. Ltd. | All
+          rights reserved
+        </p>
       </div>
     </div>
   );

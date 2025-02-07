@@ -1,198 +1,193 @@
-.ClientList {
-    /* border: 2px solid red; */
+.ClientList .clientListContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 6rem;
 }
 
-.ClientList .clientListContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6rem;
+.content h4 {
+  color: black;
+}
+.content p {
+  color: black;
 }
 
 .ClientList .viewBtn {
-    margin-top: 4rem;
-    /* border: 2px solid red; */
-    text-align: center;
+  margin-top: 4rem;
+  /* border: 2px solid red; */
+  text-align: center;
 }
 
 .ClientList h3 {
-    /* border: 2px solid red; */
-    text-align: center;
-    text-transform: capitalize;
+  /* border: 2px solid red; */
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .list {
-    border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .list-img {
-    border: 3px solid red;
-    border-radius: 100%;
-    width: 3rem;
+  border: 3px solid red;
+  border-radius: 100%;
+  width: 3rem;
 }
 
 .client-box {
-    transition: .5s;
-    /* border: 2px solid red; */
-    width: 20rem;
+  transition: 0.5s;
+  /* border: 2px solid red; */
+  width: 20rem;
 }
 
 .client-box .client-title {
-    color: var(--theme-color-bg);
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+  color: var(--theme-color-bg);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .client-box .list {
-    /* border: 2px solid red; */
-    position: relative;
-    display: flex;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0;
-    cursor: pointer;
-    transition: 0.5s;
-    overflow: hidden;
-    background-color: #fff;
-    gap: 1rem;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+  background-color: #fff;
+  gap: 1rem;
 }
 
 .client-box .list .imgBox {
-    /* border: 2px solid red; */
-    position: relative;
-    display: flex;
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
 }
 
-
 .client-box .list .content {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .client-box:hover .list {
-    filter: blur(5px);
-    opacity: 0.25;
+  filter: blur(5px);
+  opacity: 0.25;
 }
 
 .client-box .list:hover {
-    filter: blur(0px);
-    opacity: 1;
-    box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
 }
 
 .arrows {
-    width: 1rem;
-    /* border: 2px solid white; */
+  width: 1rem;
+  /* border: 2px solid white; */
 }
 
 .ClientList .clientListContainer .hidden-part {
-    /* border: 2px solid red;    */
-    max-height: 0;
-    overflow: hidden;
-    transition: 2s;
-    transform: translateY(-200px);
+  /* border: 2px solid red;    */
+  max-height: 0;
+  overflow: hidden;
+  transition: 2s;
+  transform: translateY(-200px);
 }
 
 .ClientList .clientListContainer .visible-part {
-    max-height: auto;
-    overflow: visible;
-    transform: translateY(0px);
+  max-height: auto;
+  overflow: visible;
+  transform: translateY(0px);
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
+  .ClientList .clientListContainer {
+    gap: 3rem;
+  }
 
-    .ClientList .clientListContainer {
-        gap: 3rem;
-    }
+  .client-box .client-title {
+    font-size: 1rem;
+  }
 
-    .client-box .client-title {
-        font-size: 1rem;
-    }
+  .client-box {
+    width: 15rem;
+  }
 
-    .client-box .list {}
-
-    .client-box {
-        width: 15rem;
-    }
-
-    .content h4,
-    .content p {
-        /* border: 2px solid red; */
-        font-size: .8rem;
-    }
-
-    .list-img {
-        border: 2px solid red;
-        width: 2.5rem;
-    }
+  .content h4,
+  .content p {
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+  }
+  .list-img {
+    border: 2px solid red;
+    width: 2.5rem;
+  }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
+  .ClientList .clientListContainer {
+    gap: 2rem;
+  }
 
-    .ClientList .clientListContainer {
-        gap: 2rem;
-    }
+  .client-box .client-title {
+    font-size: 0.9rem;
+  }
 
-    .client-box .client-title {
-        font-size: .9rem;
-    }
+  .client-box {
+    width: 12rem;
+  }
 
-    .client-box .list {}
+  .content h4,
+  .content p {
+    /* border: 2px solid red; */
+    color: black;
+    font-size: 0.6rem;
+  }
 
-    .client-box {
-        width: 12rem;
-    }
-
-    .content h4,
-    .content p {
-        /* border: 2px solid red; */
-        font-size: .6rem;
-    }
-
-    .list-img {
-        border: 1.5px solid red;
-        border-radius: 100%;
-        width: 2rem;
-    }
+  .list-img {
+    border: 1.5px solid red;
+    border-radius: 100%;
+    width: 2rem;
+  }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
+  .ClientList .clientListContainer {
+    gap: 0.5rem;
+  }
 
-    .ClientList .clientListContainer {
-        gap: .5rem;
-    }
+  .client-box .client-title {
+    font-size: 0.7rem;
+  }
 
-    .client-box .client-title {
-        font-size: .7rem;
-    }
+  .client-box {
+    width: 10rem;
+  }
 
-    .client-box {
-        width: 10rem;
-    }
+  .content h4,
+  .content p {
+    /* border: 2px solid red; */
+    font-size: 0.5rem;
+  }
 
-    .content h4,
-    .content p {
-        /* border: 2px solid red; */
-        font-size: .5rem;
-    }
+  .list-img {
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 1.5rem;
+  }
 
-    .list-img {
-        border: 1px solid red;
-        border-radius: 100%;
-        width: 1.5rem;
-    }
+  .client-box:hover .list {
+    filter: blur(0px);
+    opacity: 1;
+  }
 
-    .client-box:hover .list {
-        filter: blur(0px);
-        opacity: 1;
-    }
-
-    .client-box .list:hover {
-        filter: blur(0px);
-        opacity: 1;
-        box-shadow: none;
-    }
+  .client-box .list:hover {
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: none;
+  }
 }

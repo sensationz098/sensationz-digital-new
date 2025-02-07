@@ -13,11 +13,12 @@ type Element1PropsTypes = {
   heading: string;
   data: string;
 };
-
-type Element2PropsTypes = {
-  icon: ReactElement<IconType>;
-  heading: string;
-  data: string;
+type BlockTypes = {
+  Experience: string;
+  TrustedCompany: string;
+  GoodTeamwork: string;
+  Creative: string;
+  Support: string;
 };
 
 function Element1({ icon, heading, data }: Element1PropsTypes) {
@@ -29,7 +30,7 @@ function Element1({ icon, heading, data }: Element1PropsTypes) {
     </div>
   );
 }
-function Element2({ icon, heading, data }: Element2PropsTypes) {
+function Element2({ icon, heading, data }: Element1PropsTypes) {
   return (
     <div className="element element2">
       <span className="icon">{icon}</span>
@@ -39,53 +40,51 @@ function Element2({ icon, heading, data }: Element2PropsTypes) {
   );
 }
 
-export default function Block4() {
+export default function Block4({
+  Experience,
+  TrustedCompany,
+  GoodTeamwork,
+  Creative,
+  Support,
+}: BlockTypes) {
   return (
-    <div className="container main-box stiff-block">
-      <div className="main-box-title">
-        <h4 className="choose">Why Choose Us</h4>
-        <h1>why are we your solution?</h1>
-      </div>
+    <>
+      <div className="container main-box stiff-block">
+        <div className="main-box-title">
+          <h4 className="choose">Why Choose Us</h4>
+          <h1>why are we your solution?</h1>
+        </div>
 
-      <div className="main-box-inside1">
-        <Element1
-          icon={<MdOutlineElderlyWoman />}
-          heading={"Experience"}
-          data={
-            "Your Gateway to Digital Mastery. Unlock unparalleled expertise and propel your online presence to new heights"
-          }
-        />
-        <Element1
-          icon={<VscWorkspaceTrusted />}
-          heading={"Trusted Company"}
-          data={
-            "Where Reliability Meets Excellence. Count on us for steadfast support and unwavering commitment to your digital success"
-          }
-        />
-        <Element1
-          icon={<FaPeopleGroup />}
-          heading={"Good Teamwork"}
-          data={
-            "Good Teamwork: Collaboration Fuels Innovation. Together, we achieve greatness, surpassing expectations with synergy and cohesion"
-          }
-        />
+        <div className="main-box-inside1">
+          <Element1
+            icon={<MdOutlineElderlyWoman />}
+            heading={"Experience"}
+            data={Experience}
+          />
+          <Element1
+            icon={<VscWorkspaceTrusted />}
+            heading={"Trusted Company"}
+            data={TrustedCompany}
+          />
+          <Element1
+            icon={<FaPeopleGroup />}
+            heading={"Good Teamwork"}
+            data={GoodTeamwork}
+          />
+        </div>
+        <div className="main-box-inside2">
+          <Element2
+            icon={<IoAccessibilitySharp />}
+            heading={"Creative"}
+            data={Creative}
+          />
+          <Element2
+            icon={<BiSupport />}
+            heading={"Support 24/7"}
+            data={Support}
+          />
+        </div>
       </div>
-      <div className="main-box-inside2">
-        <Element2
-          icon={<IoAccessibilitySharp />}
-          heading={"Creative"}
-          data={
-            "Where Imagination Meets Strategy. Embrace innovation and unleash the power of creativity with us."
-          }
-        />
-        <Element2
-          icon={<BiSupport />}
-          heading={"Support 24/7"}
-          data={
-            "Your Digital Lifeline Anytime, Anywhere. Rest easy knowing our dedicated team is always here to assist you"
-          }
-        />
-      </div>
-    </div>
+    </>
   );
 }

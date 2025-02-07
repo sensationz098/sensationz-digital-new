@@ -9,6 +9,7 @@ import programIcon3 from "./imgAssets/program-icon-3.png";
 
 // servicse
 import seo from "./services-img/seo.jpg";
+import seo2 from "./services-img/seo2.jpg";
 import webDesign from "./services-img/web-design.jpg";
 import graphicDesign from "./services-img/graphic-design.jpg";
 import videoEditing from "./services-img/video-editing.jpg";
@@ -29,6 +30,8 @@ import client10 from "./clientHandles/list-pic10.png";
 import client11 from "./clientHandles/list-pic11.png";
 import client12 from "./clientHandles/list-pic12.png";
 
+import client13 from "./clientHandles/list-pic13.png";
+
 import down from "../assets/imgAssets/down.png";
 import up from "../assets/imgAssets/up.png";
 
@@ -47,6 +50,7 @@ import clientImage3 from "./imgAssets/client-review3.png";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  seo2,
   testVideo,
   clientImage1,
   clientImage2,
@@ -69,6 +73,7 @@ export {
   client10,
   client11,
   client12,
+  client13,
   seo,
   webDesign,
   graphicDesign,

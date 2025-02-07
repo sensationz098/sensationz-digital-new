@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className="container">
             <Title title={"about Us"} subtitle={"know more about us"} />
-            <About setPlayState={setPlayState} />
+            <About />
           </div>
 
           <div className="container">

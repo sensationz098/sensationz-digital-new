@@ -41,7 +41,7 @@ export default function Services() {
       <div className="services">
         <Service
           img={seo}
-          to={"/servies/seo"}
+          to={"/services/seo"}
           capImg={programIcon1}
           caption={"S.E.O"}
         />

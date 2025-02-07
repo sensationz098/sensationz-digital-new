@@ -1,7 +1,5 @@
 import "./BannerStyle.css";
-import { bannerImg } from "../../../assets";
-
-export default function Banner() {
+export default function Banner({ bannerImg }: { bannerImg: string }) {
   return (
     <div className="banner-cover">
       <img src={bannerImg} alt="" className="banner-img" />
