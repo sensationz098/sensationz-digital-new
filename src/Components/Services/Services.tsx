@@ -5,7 +5,6 @@ type ServicesPropsType = {
   caption: string;
 };
 
-import { Link } from "react-router-dom";
 import "./ServicesStyle.css";
 
 import {
@@ -25,12 +24,12 @@ function Service({ img, capImg, caption, to }: ServicesPropsType) {
   return (
     <div className="service stiff-block">
       <LazyLoadImageComponent imageSource={img} alt="image" />
-      <Link to={to}>
+      <a href={to}>
         <div className="caption">
           <LazyLoadImageComponent imageSource={capImg} alt="image" />
           <p>{caption}</p>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }

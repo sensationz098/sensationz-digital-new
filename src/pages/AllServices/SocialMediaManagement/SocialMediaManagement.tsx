@@ -10,8 +10,8 @@ import Block4 from "../../../Components/ServicePageComponents/Block4/Block4";
 import Contact from "../../../Components/Contact/Contact";
 import Title from "../../../Components/Title/Title";
 
-import img1 from "../../../assets/services-img/social-media-management.jpg";
-import img2 from "../../../assets/services-img/social-media-management2.jpg";
+import img1 from "../../../assets/services-img/social-media-management.webp";
+import img2 from "../../../assets/services-img/social-media-management2.webp";
 
 import BeatLoader from "react-spinners/BeatLoader";
 

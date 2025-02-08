@@ -19,7 +19,6 @@ const LazyLoadImageComponent = ({
       alt={alt}
       className={className}
       effect="blur"
-      loading="lazy"
       onClick={onClick}
     />
   );

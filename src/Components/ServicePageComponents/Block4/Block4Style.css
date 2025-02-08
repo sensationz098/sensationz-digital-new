@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  width: 120%;
+  width: 100%;
 }
 
 .main-box .main-box-inside2 {
@@ -42,7 +42,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  width: 120%;
+  width: 100%;
 }
 
 .main-box .element {
@@ -149,7 +149,7 @@
   .main-box-inside1 .element1,
   .main-box-inside2 .element2 {
     width: 18rem;
-    height: 40vh;
+    height: 60vh;
   }
 
   .main-box .main-box-title h1 {
