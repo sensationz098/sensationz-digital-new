@@ -18,7 +18,7 @@ const LazyLoadImageComponent = ({
       src={imageSource}
       alt={alt}
       className={className}
-      effect="blur"
+      // effect="blur"
       onClick={onClick}
     />
   );

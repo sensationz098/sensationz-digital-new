@@ -14,6 +14,7 @@ import {
   client12,
   client13,
 } from "./../assets";
+import { brand1, brand2, brand3, brand4, brand5 } from "./../assets";
 export const HeroTagLine =
   "At Sensationz Digital, we specialize in boosting your website traffic and empowering your brand to grow exponentially";
 
@@ -32,6 +33,43 @@ type data = {
   name: string;
   insta: string;
 };
+
+type brandPromoTypes = {
+  id: number;
+  name: string;
+  image: string;
+};
+
+export const brandPromo: brandPromoTypes[] = [
+  {
+    id: 1,
+    name: "Virendra Sharma",
+    image: brand1,
+  },
+  {
+    id: 2,
+    name: "Shivani",
+    image: brand2,
+  },
+  {
+    id: 3,
+    name: "Bina Kedia",
+    image: brand3,
+  },
+  {
+    id: 4,
+    name: "Car Vegas",
+    image: brand4,
+  },
+];
+
+export const brandPromo2: brandPromoTypes[] = [
+  {
+    id: 1,
+    name: "P5",
+    image: brand5,
+  },
+];
 export const data: data[] = [
   {
     id: 1,

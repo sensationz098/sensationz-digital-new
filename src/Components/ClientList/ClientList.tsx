@@ -2,9 +2,8 @@ import { useState } from "react";
 import "./ClientListStyle.css";
 
 // pics
-
-import { brand1, brand2, brand3, brand4, brand5, down, up } from "../../assets";
-import { data, data2 } from "../../constant";
+import { down, up } from "../../assets";
+import { data, data2, brandPromo, brandPromo2 } from "../../constant";
 
 type ClientListPropsType = {
   src: string;
@@ -76,21 +75,41 @@ export default function ClientList() {
             <div className="client-box">
               <h3 className="client-title">Brand Promotion</h3>
 
-              <ClientListElement
+              {/* <ClientListElement
                 link=""
                 src={brand1}
                 name={"Virendra Sharma"}
               />
               <ClientListElement link="" src={brand2} name={"Shivani"} />
               <ClientListElement link="" src={brand3} name={"Bina Kedia"} />
-              <ClientListElement link="" src={brand4} name={"Car Vegas"} />
-
+              <ClientListElement link="" src={brand4} name={"Car Vegas"} /> */}
+              {brandPromo.map((ind) => {
+                return (
+                  <ClientListElement
+                    key={ind.id}
+                    link=""
+                    src={ind.image}
+                    name={ind.name}
+                  />
+                );
+              })}
               <div
                 className={`client-box ${
                   toggle ? "hidden-part" : "visible-part"
                 }`}
               >
-                <ClientListElement link="" src={brand5} name={"P5"} />
+                {brandPromo2.map((ind) => {
+                  {
+                    return (
+                      <ClientListElement
+                        key={ind.id}
+                        link=""
+                        src={ind.image}
+                        name={ind.name}
+                      />
+                    );
+                  }
+                })}
               </div>
             </div>
           </div>
