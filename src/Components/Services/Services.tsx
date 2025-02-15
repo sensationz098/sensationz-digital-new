@@ -39,31 +39,10 @@ export default function Services() {
     <>
       <div className="services">
         <Service
-          img={seo}
-          to={"/services/seo"}
-          capImg={programIcon1}
-          caption={"S.E.O"}
-        />
-        <Service
-          img={webDesign}
-          to={"/services/webdesigning"}
-          capImg={programIcon2}
-          caption={"Web Designing"}
-        />
-        <Service
-          img={graphicDesign}
-          to={"/services/graphicdesigning"}
+          img={brandPromo}
+          to={"/services/brandpromotion"}
           capImg={programIcon3}
-          caption={"Graphic Designing"}
-        />
-      </div>
-
-      <div className="services">
-        <Service
-          img={videoEditing}
-          to={"/services/videoediting"}
-          capImg={programIcon1}
-          caption={"Video Editing"}
+          caption={"Brand Promotion"}
         />
         <Service
           img={socialMedia}
@@ -72,10 +51,31 @@ export default function Services() {
           caption={"Social Media Management"}
         />
         <Service
-          img={brandPromo}
-          to={"/services/brandpromotion"}
+          img={videoEditing}
+          to={"/services/videoediting"}
+          capImg={programIcon1}
+          caption={"Video Editing"}
+        />
+      </div>
+
+      <div className="services">
+        <Service
+          img={graphicDesign}
+          to={"/services/graphicdesigning"}
           capImg={programIcon3}
-          caption={"Brand Promotion"}
+          caption={"Graphic Designing"}
+        />
+        <Service
+          img={webDesign}
+          to={"/services/webdesigning"}
+          capImg={programIcon2}
+          caption={"Web Designing"}
+        />
+        <Service
+          img={seo}
+          to={"/services/seo"}
+          capImg={programIcon1}
+          caption={"S.E.O"}
         />
       </div>
     </>
