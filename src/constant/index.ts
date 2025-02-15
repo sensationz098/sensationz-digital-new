@@ -13,6 +13,16 @@ import {
   client11,
   client12,
   client13,
+  sketch,
+  jewellery,
+  rubik,
+  pooja,
+  tarot,
+  tarotCard,
+  astrology,
+  artClasses,
+  makeup,
+  healing,
 } from "./../assets";
 import { brand1, brand2, brand3, brand4, brand5 } from "./../assets";
 export const HeroTagLine =
@@ -68,6 +78,60 @@ export const brandPromo2: brandPromoTypes[] = [
     id: 1,
     name: "P5",
     image: brand5,
+  },
+  {
+    id: 2,
+    name: "Sketching",
+    image: sketch,
+  },
+  {
+    id: 3,
+    name: "Jewellery",
+    image: jewellery,
+  },
+  {
+    id: 4,
+    name: "Rubik Classes",
+    image: rubik,
+  },
+  {
+    id: 5,
+    name: "Pooja Samgri Store",
+    image: pooja,
+  },
+
+  {
+    id: 6,
+    name: "Tarot Reader",
+    image: tarot,
+  },
+
+  {
+    id: 7,
+    name: "Tarot Card Reader",
+    image: tarotCard,
+  },
+  {
+    id: 8,
+    name: "Astrology",
+    image: astrology,
+  },
+
+  {
+    id: 9,
+    name: "Art Classes",
+    image: artClasses,
+  },
+
+  {
+    id: 10,
+    name: "Makeup Workshop",
+    image: makeup,
+  },
+  {
+    id: 11,
+    name: "Healing Center",
+    image: healing,
   },
 ];
 export const data: data[] = [

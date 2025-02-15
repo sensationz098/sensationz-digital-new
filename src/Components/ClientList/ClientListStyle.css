@@ -4,6 +4,11 @@
   justify-content: center;
   gap: 6rem;
 }
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
 .content h4 {
   color: black;
@@ -190,4 +195,50 @@
     opacity: 1;
     box-shadow: none;
   }
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 80%;
+  max-width: 700px;
+  object-fit: contain;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }

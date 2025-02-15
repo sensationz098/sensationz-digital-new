@@ -50,6 +50,16 @@ import brand2 from "./brandPromo/Shivani.webp";
 import brand3 from "./brandPromo/BinaKedia.webp";
 import brand4 from "./brandPromo/CarVegas.webp";
 import brand5 from "./brandPromo/P5.webp";
+import sketch from "./brandPromo/sketch.jpeg";
+import jewellery from "./brandPromo/jewellery.jpeg";
+import rubik from "./brandPromo/rubik.jpeg";
+import pooja from "./brandPromo/pooja.jpeg";
+import tarot from "./brandPromo/tarot.jpeg";
+import tarotCard from "./brandPromo/tarotCard.jpeg";
+import astrology from "./brandPromo/astrology.jpeg";
+import artClasses from "./brandPromo/artClasses.jpeg";
+import makeup from "./brandPromo/makeup.jpeg";
+import healing from "./brandPromo/healing.jpeg";
 
 // assets
 import bannerImg from "./imgAssets/digital-banner.webp";
@@ -104,4 +114,14 @@ export {
   socialban,
   videoban,
   brandban,
+  sketch,
+  jewellery,
+  rubik,
+  pooja,
+  tarot,
+  tarotCard,
+  astrology,
+  artClasses,
+  makeup,
+  healing,
 };

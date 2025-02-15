@@ -33,10 +33,36 @@ function ClientListElement({
   );
 }
 
+function ClientListElement1({ src, name, instaHandle }: ClientListPropsType) {
+  return (
+    <div className="list">
+      <div className="imgBox">
+        <img src={src} alt="" className="list-img" />
+      </div>
+      <div className="content">
+        <h4>{name}</h4>
+        <p>{instaHandle}</p>
+      </div>
+    </div>
+  );
+}
+
 export default function ClientList() {
   const [toggle, setToggle] = useState(true);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const closeModal = () => setSelectedImage(null);
+
   return (
     <>
+      {/* Add the modal component */}
+      {selectedImage && (
+        <div className="modal" onClick={closeModal}>
+          <span className="close">&times;</span>
+          <img className="modal-content" src={selectedImage} alt="Modal" />
+        </div>
+      )}
+
       <div className="ClientList stiff-block">
         <div className="clientListContainer">
           <div className="list-1">
@@ -83,16 +109,17 @@ export default function ClientList() {
               <ClientListElement link="" src={brand2} name={"Shivani"} />
               <ClientListElement link="" src={brand3} name={"Bina Kedia"} />
               <ClientListElement link="" src={brand4} name={"Car Vegas"} /> */}
-              {brandPromo.map((ind) => {
-                return (
-                  <ClientListElement
-                    key={ind.id}
-                    link=""
-                    src={ind.image}
-                    name={ind.name}
-                  />
-                );
-              })}
+              {brandPromo.map((ind) => (
+                <div key={ind.id}>
+                  <div onClick={() => setSelectedImage(ind.image)}>
+                    <ClientListElement1
+                      link=""
+                      src={ind.image}
+                      name={ind.name}
+                    />
+                  </div>
+                </div>
+              ))}
               <div
                 className={`client-box ${
                   toggle ? "hidden-part" : "visible-part"
@@ -101,12 +128,14 @@ export default function ClientList() {
                 {brandPromo2.map((ind) => {
                   {
                     return (
-                      <ClientListElement
-                        key={ind.id}
-                        link=""
-                        src={ind.image}
-                        name={ind.name}
-                      />
+                      <div onClick={() => setSelectedImage(ind.image)}>
+                        <ClientListElement1
+                          key={ind.id}
+                          link=""
+                          src={ind.image}
+                          name={ind.name}
+                        />
+                      </div>
                     );
                   }
                 })}
