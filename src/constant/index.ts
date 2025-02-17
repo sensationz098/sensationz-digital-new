@@ -59,7 +59,7 @@ export const brandPromo: brandPromoTypes[] = [
   {
     id: 2,
     name: "Shivani",
-    image: brand2,
+    image: pooja,
   },
   {
     id: 3,
@@ -94,42 +94,37 @@ export const brandPromo2: brandPromoTypes[] = [
     name: "Rubik Classes",
     image: rubik,
   },
-  {
-    id: 5,
-    name: "Pooja Samgri Store",
-    image: pooja,
-  },
 
   {
-    id: 6,
+    id: 5,
     name: "Tarot Reader",
     image: tarot,
   },
 
   {
-    id: 7,
+    id: 6,
     name: "Tarot Card Reader",
     image: tarotCard,
   },
   {
-    id: 8,
+    id: 7,
     name: "Astrology",
     image: astrology,
   },
 
   {
-    id: 9,
+    id: 8,
     name: "Art Classes",
     image: artClasses,
   },
 
   {
-    id: 10,
+    id: 9,
     name: "Makeup Workshop",
     image: makeup,
   },
   {
-    id: 11,
+    id: 10,
     name: "Healing Center",
     image: healing,
   },
