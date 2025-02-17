@@ -24,7 +24,7 @@ import {
   makeup,
   healing,
 } from "./../assets";
-import { brand1, brand2, brand3, brand4, brand5 } from "./../assets";
+import { brand1, brand3, brand4, brand5 } from "./../assets";
 export const HeroTagLine =
   "At Sensationz Digital, we specialize in boosting your website traffic and empowering your brand to grow exponentially";
 
