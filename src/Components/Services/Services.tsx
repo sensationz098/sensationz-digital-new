@@ -60,12 +60,6 @@ export default function Services() {
 
       <div className="services">
         <Service
-          img={graphicDesign}
-          to={"/services/graphicdesigning"}
-          capImg={programIcon3}
-          caption={"Graphic Designing"}
-        />
-        <Service
           img={webDesign}
           to={"/services/webdesigning"}
           capImg={programIcon2}
@@ -76,6 +70,12 @@ export default function Services() {
           to={"/services/seo"}
           capImg={programIcon1}
           caption={"S.E.O"}
+        />
+        <Service
+          img={graphicDesign}
+          to={"/services/graphicdesigning"}
+          capImg={programIcon3}
+          caption={"Graphic Designing"}
         />
       </div>
     </>
