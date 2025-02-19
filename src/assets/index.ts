@@ -38,9 +38,16 @@ import client9 from "./clientHandles/list-pic9.webp";
 import client10 from "./clientHandles/list-pic10.webp";
 import client11 from "./clientHandles/list-pic11.webp";
 import client12 from "./clientHandles/list-pic12.webp";
+import creating from "./clientHandles/creating.webp";
+import syna from "./clientHandles/syna.webp";
+import sen from "./clientHandles/sen.webp";
+import dr from "./clientHandles/dr.webp";
+import med from "./clientHandles/med.webp";
+import shal from "./clientHandles/shal.webp";
 
 import client13 from "./clientHandles/list-pic13.webp";
-
+import shimmer from "./clientHandles/shimmer.webp";
+import ahana from "./clientHandles/ahana.webp";
 import down from "../assets/imgAssets/down.webp";
 import up from "../assets/imgAssets/up.webp";
 
@@ -69,6 +76,14 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  shal,
+  sen,
+  dr,
+  med,
+  ahana,
+  shimmer,
+  syna,
+  creating,
   seo2,
   testVideo,
   clientImage1,

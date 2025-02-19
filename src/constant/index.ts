@@ -1,6 +1,5 @@
 // Hero component
 import {
-  client1,
   client2,
   client3,
   client4,
@@ -23,6 +22,14 @@ import {
   artClasses,
   makeup,
   healing,
+  creating,
+  syna,
+  shimmer,
+  ahana,
+  sen,
+  dr,
+  med,
+  shal,
 } from "./../assets";
 import { brand1, brand3, brand4, brand5 } from "./../assets";
 export const HeroTagLine =
@@ -41,7 +48,8 @@ type data = {
   id: number;
   image: string;
   name: string;
-  insta: string;
+  username: string;
+  link: string;
 };
 
 type brandPromoTypes = {
@@ -71,147 +79,207 @@ export const brandPromo: brandPromoTypes[] = [
     name: "Car Vegas",
     image: brand4,
   },
-];
 
-export const brandPromo2: brandPromoTypes[] = [
   {
-    id: 1,
+    id: 5,
     name: "P5",
     image: brand5,
   },
   {
-    id: 2,
+    id: 6,
     name: "Sketching",
     image: sketch,
   },
   {
-    id: 3,
+    id: 7,
     name: "Jewellery",
     image: jewellery,
   },
   {
-    id: 4,
+    id: 8,
     name: "Rubik Classes",
     image: rubik,
   },
 
   {
-    id: 5,
+    id: 9,
     name: "Tarot Reader",
     image: tarot,
   },
 
   {
-    id: 6,
+    id: 10,
     name: "Tarot Card Reader",
     image: tarotCard,
   },
   {
-    id: 7,
+    id: 11,
     name: "Astrology",
     image: astrology,
   },
 
   {
-    id: 8,
+    id: 12,
     name: "Art Classes",
     image: artClasses,
   },
 
   {
-    id: 9,
+    id: 13,
     name: "Makeup Workshop",
     image: makeup,
   },
   {
-    id: 10,
+    id: 14,
     name: "Healing Center",
     image: healing,
   },
 ];
+
 export const data: data[] = [
   {
     id: 1,
-    image: client1,
+    image: ahana,
     name: "Shveta Sharma",
-    insta: "ahaana_holistichealing",
+    username: "ahaana_holistichealing",
+    link: "https://www.instagram.com/ahaana_holistichealing",
   },
   {
     id: 2,
     image: client2,
     name: "Naira Sri",
-    insta: "cutiekuhoo",
+    username: "cutiekuhoo",
+    link: "https://www.instagram.com/cutiekuhoo",
   },
   {
     id: 3,
     image: client3,
     name: "Virender Sharma",
-    insta: "virendersharmababa_ji",
+    username: "virendersharmababa_ji",
+    link: "https://www.instagram.com/virendersharmababa_ji",
   },
 
   {
     id: 4,
     image: client4,
     name: "Glance Fire & Safety",
-    insta: "glanceenterprise",
+    username: "glanceenterprise",
+    link: "https://www.instagram.com/glanceenterprise",
   },
-];
-
-export const data2: data[] = [
-  {
-    id: 1,
-    image: client5,
-    name: "Suchitha joshi",
-    insta: "p5yoga_wellness",
-  },
-  {
-    id: 2,
-    image: client6,
-    name: "Aiman Mehtab",
-    insta: "thetribeofhealing",
-  },
-  {
-    id: 3,
-    image: client7,
-    name: "Durvam's Diary",
-    insta: "durvasumedha",
-  },
-
-  {
-    id: 4,
-    image: client8,
-    name: "Dr. Mukesh Kumar",
-    insta: "urocaredrmukeshkumarvijay",
-  },
-
   {
     id: 5,
-    image: client9,
-    name: "Adit Sinha",
-    insta: "aditsinhashow",
+    image: client5,
+    name: "Suchitha joshi",
+    username: "p5yoga_wellness",
+    link: "https://www.instagram.com/p5yoga_wellness",
   },
   {
     id: 6,
-    image: client10,
-    name: "Avi Sinha",
-    insta: "avisinhashow",
+    image: client6,
+    name: "Aiman Mehtab",
+    username: "thetribeofhealing",
+    link: "https://www.instagram.com/thetribeofhealing",
   },
   {
     id: 7,
-    image: client11,
-    name: "Yuva 4 Life",
-    insta: "yuva4life.in",
+    image: client7,
+    name: "Durvam's Diary",
+    username: "durvasumedha",
+    link: "https://www.instagram.com/durvasumedha",
   },
+
   {
     id: 8,
-    image: client12,
-    name: "Shveta sharma",
-    insta: "shvetazworld",
+    image: client8,
+    name: "Dr. Mukesh Kumar",
+    username: "urocaredrmukeshkumarvijay",
+    link: "https://www.instagram.com/urocaredrmukeshkumarvijay",
   },
+
   {
     id: 9,
+    image: client9,
+    name: "Adit Sinha",
+    username: "aditsinhashow",
+    link: "https://www.instagram.com/aditsinhashow",
+  },
+  {
+    id: 10,
+    image: client10,
+    name: "Avi Sinha",
+    username: "avisinhashow",
+    link: "https://www.instagram.com/avisinhashow",
+  },
+  {
+    id: 11,
+    image: client11,
+    name: "Yuva 4 Life",
+    username: "yuva4life.in",
+    link: "https://www.instagram.com/yuva4life.in",
+  },
+  {
+    id: 12,
+    image: client12,
+    name: "Shveta sharma",
+    username: "shvetazworld",
+    link: "https://www.instagram.com/shvetazworld",
+  },
+  {
+    id: 13,
     image: client13,
     name: "NUB'S",
-    insta: "nubs_nitika_",
+    username: "nubs_nitika_",
+    link: "https://www.instagram.com/nubs_nitika_",
+  },
+
+  {
+    id: 14,
+    image: med,
+    name: "Sensationz Media & Arts Pvt. Ltd.",
+    username: "SensationzMediaArtsPvtLtd",
+    link: "https://www.youtube.com/@SensationzMediaArtsPvtLtd",
+  },
+  {
+    id: 15,
+    image: dr,
+    name: "Urocare - Dr. Mukesh Kumar Vijay",
+    username: "UrocareDrMukeshKumarVijay",
+    link: "https://www.youtube.com/@UrocareDrMukeshKumarVijay",
+  },
+  {
+    id: 16,
+    image: sen,
+    name: "Sensationz Performing Arts",
+    username: "sensationz_performing_arts",
+    link: "https://www.instagram.com/sensationz_performing_arts",
+  },
+  {
+    id: 17,
+    image: shal,
+    name: "Shalinie Raghav",
+    username: "shalinieraghav",
+    link: "https://www.instagram.com/shalinieraghav",
+  },
+  {
+    id: 18,
+    image: shimmer,
+    name: "Shimmer_holds",
+    username: "shimmer_holds",
+    link: "https://www.instagram.com/shimmer_holds/",
+  },
+  {
+    id: 19,
+    image: creating,
+    name: "Creating Vibes",
+    username: "creating_vibes_ngo",
+    link: "https://www.instagram.com/creating_vibes_ngo",
+  },
+
+  {
+    id: 20,
+    image: syna,
+    name: "Syna Anand",
+    username: "synaa_anand",
+    link: "https://www.instagram.com/synaa_anand",
   },
 ];

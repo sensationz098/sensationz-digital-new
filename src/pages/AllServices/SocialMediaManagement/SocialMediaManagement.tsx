@@ -14,6 +14,8 @@ import img1 from "../../../assets/services-img/social-media-management.webp";
 import img2 from "../../../assets/services-img/social-media-management2.webp";
 
 import BeatLoader from "react-spinners/BeatLoader";
+import ClientList1 from "../../../Components/ClientList/ClientList2";
+import { data } from "../../../constant";
 
 export default function SocialMediaManagement() {
   const [loading, setLoading] = useState(false);
@@ -65,6 +67,11 @@ export default function SocialMediaManagement() {
             li3={"& many more"}
             rightImg={img2}
           />
+          <div className="container">
+            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            <ClientList1 brandPromo={data} />
+            {/* <Clients /> */}
+          </div>
 
           <Block4
             Experience={

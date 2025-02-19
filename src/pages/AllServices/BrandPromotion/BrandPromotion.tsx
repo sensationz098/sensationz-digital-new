@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./BrandPromotionStyle.css";
 import { brandban } from "./../../../assets";
-
+import { brandPromo } from "./../../../constant";
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
 import Block1 from "../../../Components/ServicePageComponents/Block1/Block1";
@@ -15,6 +15,7 @@ import img1 from "../../../assets/services-img/brand-promo.webp";
 import img2 from "../../../assets/services-img/brand-promo2.webp";
 
 import BeatLoader from "react-spinners/BeatLoader";
+import { ClientList } from "../../../Components";
 
 export default function BrandPromotion() {
   const [loading, setLoading] = useState(false);
@@ -66,6 +67,12 @@ export default function BrandPromotion() {
             li3={"& many more"}
             rightImg={img2}
           />
+
+          <div className="container">
+            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            <ClientList brandPromo={brandPromo} />
+            {/* <Clients /> */}
+          </div>
 
           <Block4
             Experience={
