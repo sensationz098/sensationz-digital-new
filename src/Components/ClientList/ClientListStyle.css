@@ -186,11 +186,11 @@ p {
   }
   .ko {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 0 20px;
+    padding: 0px !important;
     width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .client-box .client-title {
     font-size: 0.7rem;
