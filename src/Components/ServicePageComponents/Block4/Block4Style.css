@@ -147,9 +147,6 @@
 }
 
 @media (max-width: 460px) {
-  .main-box {
-    margin: -5rem 3rem;
-  }
   .main-box-inside1 .element1,
   .main-box-inside2 .element2 {
     width: 18rem;
