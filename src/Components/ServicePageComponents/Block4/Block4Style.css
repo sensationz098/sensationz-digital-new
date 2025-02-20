@@ -1,6 +1,7 @@
 .main-box {
   /* border: 2px solid red; */
   margin: 6rem 3rem;
+  /* background-color: red; */
   padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
@@ -95,7 +96,7 @@
 
 @media (max-width: 1300px) {
   .main-box {
-    margin: 2rem 3rem;
+    margin: -8rem 3rem;
   }
 
   .main-box-inside1 .element1 {
