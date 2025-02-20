@@ -54,12 +54,6 @@ export default function Home() {
           </div>
 
           <div className="container">
-            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
-            {/* <ClientList /> */}
-            {/* <Clients /> */}
-          </div>
-
-          <div className="container">
             <Title title={"testimonials"} subtitle={"what client says?"} />
           </div>
           <Testimonials />

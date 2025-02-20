@@ -69,8 +69,8 @@ export default function SocialMediaManagement() {
           />
           <div className="container">
             <Title title={"clients"} subtitle={"Whom we have worked for?"} />
-            <ClientList1 brandPromo={data} />
             {/* <Clients /> */}
+            <ClientList1 brandPromo={data} />
           </div>
 
           <Block4

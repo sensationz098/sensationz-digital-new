@@ -131,7 +131,8 @@ p {
   }
 
   .client-box {
-    width: 15rem;
+    margin: 0 auto;
+    /* width: 15rem; */
   }
 
   .content h4,
@@ -146,6 +147,13 @@ p {
 }
 
 @media (max-width: 600px) {
+  .ko {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+    width: 100%;
+  }
   .ClientList .clientListContainer {
     gap: 2rem;
   }
@@ -176,13 +184,20 @@ p {
   .ClientList .clientListContainer {
     gap: 0.5rem;
   }
-
+  .ko {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
   .client-box .client-title {
     font-size: 0.7rem;
   }
 
   .client-box {
-    width: 10rem;
+    width: 100%;
   }
 
   .content h4,
