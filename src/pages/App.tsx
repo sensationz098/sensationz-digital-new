@@ -38,13 +38,11 @@ function App() {
             <Title title={"about Us"} subtitle={"know more about us"} />
             <About />
           </div>
-          <div className="container">
-            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
-          </div>
+
           <div className="container">
             <Title title={"testimonials"} subtitle={"what client says?"} />
+            <Testimonials />
           </div>
-          <Testimonials />
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
 

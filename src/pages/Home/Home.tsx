@@ -55,8 +55,8 @@ export default function Home() {
 
           <div className="container">
             <Title title={"testimonials"} subtitle={"what client says?"} />
+            <Testimonials />
           </div>
-          <Testimonials />
 
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
