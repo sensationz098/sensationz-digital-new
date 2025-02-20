@@ -12,7 +12,6 @@ import Testimonials from "../../Components/Testimonials/Testimonials";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 
 import BeatLoader from "react-spinners/BeatLoader";
-import ClientList from "../../Components/ClientList/ClientList";
 
 export default function Home() {
   const [playState, setPlayState] = useState(false);

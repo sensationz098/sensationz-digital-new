@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { About, Contact, Hero, ClientList, Title, Navbar } from "../Components";
+import { About, Contact, Hero, Title, Navbar } from "../Components";
 import Services from "../Components/Services/Services";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import { BeatLoader } from "react-spinners";
@@ -40,8 +40,6 @@ function App() {
           </div>
           <div className="container">
             <Title title={"clients"} subtitle={"Whom we have worked for?"} />
-
-            <ClientList />
           </div>
           <div className="container">
             <Title title={"testimonials"} subtitle={"what client says?"} />

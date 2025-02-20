@@ -33,7 +33,7 @@ function ClientListElement1({ src, name, instaHandle }: ClientListPropsType) {
   );
 }
 export default function ClientList({
-  brandPromo,
+  brandPromo = [],
 }: {
   brandPromo: BrandPromo[];
 }) {
