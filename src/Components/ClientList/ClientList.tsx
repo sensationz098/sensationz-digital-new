@@ -21,7 +21,7 @@ type ClientListPropsType = {
 
 function ClientListElement1({ src, name, instaHandle }: ClientListPropsType) {
   return (
-    <div className="list">
+    <div className="list w-[100px]">
       <div className="imgBox">
         <img src={src} alt="" className="list-img" />
       </div>
