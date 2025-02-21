@@ -94,6 +94,11 @@
   text-align: center;
 }
 
+@media (min-width: 0px) {
+  .main-box {
+    margin: 3rem 3rem;
+  }
+}
 @media (max-width: 1300px) {
   .main-box {
     margin: 3rem 3rem;
