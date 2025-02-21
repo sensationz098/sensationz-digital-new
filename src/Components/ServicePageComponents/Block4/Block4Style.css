@@ -97,7 +97,6 @@
 @media (min-width: 0px) {
   .main-box {
     margin: 3rem 3rem;
-    background-color: aqua;
   }
 }
 @media (max-width: 1300px) {
@@ -160,7 +159,7 @@
 
 @media (max-width: 460px) {
   .stiff-block1 {
-    margin-top: -8rem;
+    margin-top: 0rem;
   }
   .main-box-inside1 .element1,
   .main-box-inside2 .element2 {
