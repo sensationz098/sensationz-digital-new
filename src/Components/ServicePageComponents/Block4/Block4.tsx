@@ -55,7 +55,7 @@ export default function Block4({
       <div className="container main-box stiff-block stiff-block1">
         <div className="main-box-title">
           <h4 className="choose">Why Choose Us</h4>
-          <h1>why are we your solution?</h1>
+          <h1>Why are we your solution?</h1>
         </div>
 
         <div className="main-box-inside1">

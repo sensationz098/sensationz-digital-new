@@ -19,7 +19,7 @@ function ClientListElement({
 }: ClientListPropsType) {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
-      <div className="list">
+      <div className="list  kl">
         <div className="imgBox">
           <img src={image} alt="" className="list-img" />
         </div>
@@ -49,7 +49,7 @@ export default function ClientList1({
 
   return (
     <>
-      <div className="list-2">
+      <div className="list-2 stiff-block">
         <div className="client-box">
           <div className="ko">
             {displayedItems.map((ind) => (

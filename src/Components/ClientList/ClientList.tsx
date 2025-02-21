@@ -21,7 +21,7 @@ type ClientListPropsType = {
 
 function ClientListElement1({ src, name, instaHandle }: ClientListPropsType) {
   return (
-    <div className="list w-[100px]">
+    <div className="list">
       <div className="imgBox">
         <img src={src} alt="" className="list-img" />
       </div>
@@ -51,7 +51,7 @@ export default function ClientList({
         </div>
       )}
 
-      <div className="list-2">
+      <div className="list-2 stiff-block">
         <div className="client-box">
           {/* Make the grid responsive */}
           <div className="ko">

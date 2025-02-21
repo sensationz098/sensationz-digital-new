@@ -13,7 +13,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   width: 100%;
 }
 .content h4 {
@@ -152,7 +152,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     width: 100%;
   }
   .ClientList .clientListContainer {
@@ -187,6 +187,10 @@ p {
   }
   .client-box {
     width: 100% !important;
+  }
+  .list-2 {
+    /* background-color: red; */
+    margin-left: -30px;
   }
 }
 @media (max-width: 400px) {

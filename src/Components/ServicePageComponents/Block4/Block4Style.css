@@ -1,14 +1,10 @@
 .main-box {
-  /* border: 2px solid red; */
-  margin: 6rem 3rem;
-  /* background-color: red; */
   padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  /* background-color: rgb(255, 242, 242); */
 }
 
 .main-box .main-box-title {
@@ -17,15 +13,18 @@
 }
 
 .main-box .choose {
-  /* border: 2px solid red; */
   text-align: center;
   text-transform: uppercase;
   color: var(--theme-color-bg);
 }
 
 .main-box .main-box-title h1 {
-  /* border: 2px solid red; */
   width: 30rem;
+}
+
+.main-box {
+  /* background-color: red; */
+  margin-top: 10rem !important;
 }
 
 .main-box .main-box-inside1 {
@@ -53,9 +52,8 @@
   align-items: center;
   justify-content: center;
   padding: 3.5rem 1.2rem;
-  /* background-color: rgb(255, 184, 184); */
+
   border-radius: 2rem;
-  /* width: 25rem; */
 }
 
 .main-box-inside1 .element1 {
@@ -67,12 +65,6 @@
   width: 38rem;
   height: 45vh;
 }
-
-/* .main-box .main-box-inside2 .element {
-    border: 1px solid rgba(0, 0, 0, 0.9);
-    display: flex;
-    flex-direction: column;
-} */
 
 .element .icon {
   /* border: 2px solid red; */
@@ -94,16 +86,7 @@
   text-align: center;
 }
 
-@media (min-width: 0px) {
-  .main-box {
-    margin: 3rem 3rem;
-  }
-}
 @media (max-width: 1300px) {
-  .main-box {
-    margin: 3rem 3rem;
-  }
-
   .main-box-inside1 .element1 {
     width: 21rem;
   }
@@ -121,21 +104,16 @@
   }
 }
 
-/* @media (min-width: 460px) and (max-width: 800px) {
-  .stiff-block1 {
-    margin-top: -7rem;
+@media (min-width: 900px) {
+  .main-box {
+    /* background-color: red; */
+    margin-top: 4rem;
   }
-} */
-
+}
 @media (max-width: 1060px) {
-  .main-box .main-box-inside1 {
-    display: flex;
-    /* flex-direction: column; */
-  }
-
+  .main-box .main-box-inside1,
   .main-box .main-box-inside2 {
     display: flex;
-    /* flex-direction: column; */
   }
 }
 
@@ -144,7 +122,6 @@
     display: flex;
     flex-direction: column;
   }
-
   .main-box .main-box-inside2 {
     display: flex;
     flex-direction: column;
@@ -153,7 +130,8 @@
   .main-box-inside1 .element1,
   .main-box-inside2 .element2 {
     width: 25rem;
-    height: 50vh;
+    height: 40vh;
+    background-color: red;
   }
 }
 
