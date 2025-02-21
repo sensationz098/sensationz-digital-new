@@ -97,6 +97,7 @@
 @media (min-width: 0px) {
   .main-box {
     margin: 3rem 3rem;
+    background-color: aqua;
   }
 }
 @media (max-width: 1300px) {
@@ -121,11 +122,11 @@
   }
 }
 
-@media (min-width: 460px) and (max-width: 800px) {
+/* @media (min-width: 460px) and (max-width: 800px) {
   .stiff-block1 {
     margin-top: -7rem;
   }
-}
+} */
 
 @media (max-width: 1060px) {
   .main-box .main-box-inside1 {
