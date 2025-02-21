@@ -31,7 +31,7 @@ import {
   med,
   shal,
 } from "./../assets";
-import { brand1, brand3, brand4, brand5 } from "./../assets";
+import { brand1, brand3, brand4 } from "./../assets";
 export const HeroTagLine =
   "At Sensationz Digital, we specialize in boosting your website traffic and empowering your brand to grow exponentially";
 
@@ -82,55 +82,50 @@ export const brandPromo: brandPromoTypes[] = [
 
   {
     id: 5,
-    name: "P5",
-    image: brand5,
-  },
-  {
-    id: 6,
     name: "Sketching",
     image: sketch,
   },
   {
-    id: 7,
+    id: 6,
     name: "Jewellery",
     image: jewellery,
   },
   {
-    id: 8,
+    id: 7,
     name: "Rubik Classes",
     image: rubik,
   },
 
   {
-    id: 9,
+    id: 8,
     name: "Tarot Reader",
     image: tarot,
   },
 
   {
-    id: 10,
+    id: 9,
     name: "Tarot Card Reader",
     image: tarotCard,
   },
   {
-    id: 11,
+    id: 10,
     name: "Astrology",
     image: astrology,
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Art Classes",
     image: artClasses,
   },
 
   {
-    id: 13,
+    id: 12,
     name: "Makeup Workshop",
     image: makeup,
   },
   {
-    id: 14,
+    id: 13,
     name: "Healing Center",
     image: healing,
   },

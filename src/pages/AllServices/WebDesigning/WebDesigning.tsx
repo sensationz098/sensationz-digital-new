@@ -66,6 +66,7 @@ export default function WebDesigning() {
           />
 
           <Block4
+            color={"#f19c79"}
             Experience={
               "Crafting Websites with Purpose and Precision. With extensive experience in web design, we create visually stunning and user-friendly websites that not only capture attention but also drive engagement and conversion. Your digital presence deserves nothing less than exceptional design."
             }

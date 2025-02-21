@@ -181,6 +181,14 @@ p {
   }
 }
 
+@media (min-width: 400px) {
+  .ko {
+    width: 100%;
+  }
+  .client-box {
+    width: 100% !important;
+  }
+}
 @media (max-width: 400px) {
   .ClientList .clientListContainer {
     gap: 0.5rem;

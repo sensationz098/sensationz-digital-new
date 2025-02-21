@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { grapban } from "./../../../assets";
+import { grapban, graphicDesign, GraphicDesign2 } from "./../../../assets";
 
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
 import Block1 from "../../../Components/ServicePageComponents/Block1/Block1";
@@ -9,7 +9,6 @@ import Block4 from "../../../Components/ServicePageComponents/Block4/Block4";
 import Contact from "../../../Components/Contact/Contact";
 import Title from "../../../Components/Title/Title";
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
-import { seo as img1, seo2 as img2 } from "./../../../assets";
 // import img1 from "../../../assets/services-img/graphic-design.jpg";
 // import img2 from "../../../assets/services-img/graphic-design2.jpg";
 
@@ -41,7 +40,7 @@ export default function GraphicDesigning() {
           <ServicesNav />
           <Banner bannerImg={grapban} />
           <Block1
-            leftImg={img1}
+            leftImg={graphicDesign}
             title={"We deliver designs that stick in your memory."}
             para1={
               "We have been providing eye-catching, visually appealing, and powerful design. Excel Variety Media offers numerous industry verticals a wide range of design services. Because of our years of experience, we can help you whether your business is new or well-established. We assist you in organizing and achieving your goals with visually appealing and functional designs that make a lasting impression on our clients."
@@ -61,10 +60,11 @@ export default function GraphicDesigning() {
             li1={"Adobe Photoshop"}
             li2={"Adobe Illustrator"}
             li3={"& many more"}
-            rightImg={img2}
+            rightImg={GraphicDesign2}
           />
 
           <Block4
+            color={"#a3cef1"}
             Experience={
               "Your Vision, Brought to Life with Precision. With years of expertise in graphic design, we offer innovative and tailored solutions that elevate your brand and online presence to new levels."
             }

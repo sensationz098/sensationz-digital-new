@@ -12,6 +12,7 @@ type Element1PropsTypes = {
   icon: ReactElement<IconType>;
   heading: string;
   data: string;
+  color: string;
 };
 type BlockTypes = {
   Experience: string;
@@ -19,20 +20,21 @@ type BlockTypes = {
   GoodTeamwork: string;
   Creative: string;
   Support: string;
+  color: string;
 };
 
-function Element1({ icon, heading, data }: Element1PropsTypes) {
+function Element1({ icon, heading, data, color }: Element1PropsTypes) {
   return (
-    <div className="element element1">
+    <div className="element element1" style={{ backgroundColor: `${color}` }}>
       <span className="icon">{icon}</span>
       <h4 className="heading">{heading}</h4>
       <p className="data">{data}</p>
     </div>
   );
 }
-function Element2({ icon, heading, data }: Element1PropsTypes) {
+function Element2({ icon, heading, data, color }: Element1PropsTypes) {
   return (
-    <div className="element element2">
+    <div className="element element2" style={{ backgroundColor: `${color}` }}>
       <span className="icon">{icon}</span>
       <h4 className="heading">{heading}</h4>
       <p className="data">{data}</p>
@@ -46,10 +48,11 @@ export default function Block4({
   GoodTeamwork,
   Creative,
   Support,
+  color,
 }: BlockTypes) {
   return (
     <>
-      <div className="container main-box stiff-block">
+      <div className="container main-box stiff-block stiff-block1">
         <div className="main-box-title">
           <h4 className="choose">Why Choose Us</h4>
           <h1>why are we your solution?</h1>
@@ -60,16 +63,19 @@ export default function Block4({
             icon={<MdOutlineElderlyWoman />}
             heading={"Experience"}
             data={Experience}
+            color={color}
           />
           <Element1
             icon={<VscWorkspaceTrusted />}
             heading={"Trusted Company"}
             data={TrustedCompany}
+            color={color}
           />
           <Element1
             icon={<FaPeopleGroup />}
             heading={"Good Teamwork"}
             data={GoodTeamwork}
+            color={color}
           />
         </div>
         <div className="main-box-inside2">
@@ -77,11 +83,13 @@ export default function Block4({
             icon={<IoAccessibilitySharp />}
             heading={"Creative"}
             data={Creative}
+            color={color}
           />
           <Element2
             icon={<BiSupport />}
             heading={"Support 24/7"}
             data={Support}
+            color={color}
           />
         </div>
       </div>

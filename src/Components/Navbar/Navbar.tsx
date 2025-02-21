@@ -18,6 +18,9 @@ export default function Navbar() {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
   };
 
+  // Close the mobile menu when overlay is clicked
+  const closeMenu = () => setMobileMenu(false);
+
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <LazyLoadImageComponent
@@ -25,45 +28,28 @@ export default function Navbar() {
         alt="Logo"
         className="logo-main"
       />
-
       <img src={MenuIcon} alt="" className="menu-icon" onClick={toggleMenu} />
+
+      {/* Overlay (only visible when mobile menu is open) */}
+      {mobileMenu && <div className="overlay" onClick={closeMenu}></div>}
+
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
-        <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="services" smooth={true} offset={-210} duration={500}>
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} offset={-240} duration={500}>
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link to="ClientList" smooth={true} offset={-230} duration={500}>
-            Clients
-          </Link>
-        </li>
-        <li>
-          <Link to="testimonials" smooth={true} offset={-290} duration={500}>
-            Testimonials
-          </Link>
-        </li>
-        <li className="btn-li">
-          <Link
-            to="contact"
-            smooth={true}
-            offset={-250}
-            duration={500}
-            className="btn"
-          >
-            Contact Us
-          </Link>
-        </li>
+        <Link to="hero" smooth={true} offset={0} duration={500}>
+          <li>Home</li>
+        </Link>
+        <Link to="services" smooth={true} offset={-210} duration={500}>
+          <li>Services</li>
+        </Link>
+        <Link to="about" smooth={true} offset={-240} duration={500}>
+          <li>About Us</li>
+        </Link>
+
+        <Link to="testimonials" smooth={true} offset={-290} duration={500}>
+          <li>Testimonials</li>
+        </Link>
+        <Link to="contact" smooth={true} offset={-250} duration={500}>
+          <li className="btn-li btn">Contact Us</li>
+        </Link>
       </ul>
     </nav>
   );

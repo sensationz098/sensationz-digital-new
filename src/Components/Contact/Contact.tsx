@@ -32,7 +32,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="contact stiff-block">
+      <div className="contact stiff-block con-stiff">
         <div className="contact-col">
           <h3>
             Send a message <img src={msg_icon} alt="" />

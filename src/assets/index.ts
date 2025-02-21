@@ -24,6 +24,7 @@ import graphicDesign from "./services-img/graphic-design.webp";
 import videoEditing from "./services-img/video-editing.webp";
 import socialMedia from "./services-img/social-media-management.webp";
 import brandPromo from "./services-img/brand-promo.webp";
+import GraphicDesign2 from "./services-img/graphic-design1.webp";
 
 // client
 import client1 from "./clientHandles/list-pic1.webp";
@@ -55,8 +56,7 @@ import up from "../assets/imgAssets/up.webp";
 import brand1 from "./brandPromo/VirendraSharma.webp";
 import brand2 from "./brandPromo/Shivani.webp";
 import brand3 from "./brandPromo/BinaKedia.webp";
-import brand4 from "./brandPromo/CarVegas.webp";
-import brand5 from "./brandPromo/P5.webp";
+import brand4 from "./brandPromo/car.webp";
 import sketch from "./brandPromo/sketch.jpeg";
 import jewellery from "./brandPromo/jewellery.jpeg";
 import rubik from "./brandPromo/rubik.jpeg";
@@ -76,6 +76,7 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  GraphicDesign2,
   shal,
   sen,
   dr,
@@ -94,7 +95,6 @@ export {
   brand2,
   brand3,
   brand4,
-  brand5,
   client1,
   client2,
   client3,

@@ -70,6 +70,7 @@ export default function VideoEditing() {
           />
 
           <Block4
+            color={"#aaf683"}
             Experience={
               "Transforming Ideas into Stunning Visual Stories.With years of experience in video editing, we turn raw footage into captivating, high-quality videos that resonate with your audience. Our expertise ensures your message is communicated clearly and creatively."
             }

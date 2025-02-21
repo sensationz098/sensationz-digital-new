@@ -45,10 +45,10 @@ export default function Services() {
           caption={"Brand Promotion"}
         />
         <Service
-          img={socialMedia}
-          to={"/services/socialmediamanagement"}
-          capImg={programIcon2}
-          caption={"Social Media Management"}
+          img={graphicDesign}
+          to={"/services/graphicdesigning"}
+          capImg={programIcon3}
+          caption={"Graphic Designing"}
         />
         <Service
           img={videoEditing}
@@ -72,10 +72,10 @@ export default function Services() {
           caption={"S.E.O"}
         />
         <Service
-          img={graphicDesign}
-          to={"/services/graphicdesigning"}
-          capImg={programIcon3}
-          caption={"Graphic Designing"}
+          img={socialMedia}
+          to={"/services/socialmediamanagement"}
+          capImg={programIcon2}
+          caption={"Social Media Management"}
         />
       </div>
     </>

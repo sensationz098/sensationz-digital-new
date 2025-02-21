@@ -74,6 +74,7 @@ export default function SocialMediaManagement() {
           </div>
 
           <Block4
+            color={"#ffb3c6"}
             Experience={
               "Empowering Your Brand Through Strategic Social Media. With years of experience in social media management, we craft tailored strategies that amplify your brand's voice, increase engagement, and drive measurable results across all platforms."
             }

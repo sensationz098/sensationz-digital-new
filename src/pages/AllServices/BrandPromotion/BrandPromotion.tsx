@@ -75,6 +75,7 @@ export default function BrandPromotion() {
           </div>
 
           <Block4
+            color={"rgb(255, 184, 184)"}
             Experience={
               "Building Brands with Impact and Recognition. With extensive experience in brand promotion, we help businesses craft compelling strategies that increase visibility, build strong connections with audiences, and establish a memorable brand identity across all channels."
             }
