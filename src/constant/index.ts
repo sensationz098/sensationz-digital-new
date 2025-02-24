@@ -30,6 +30,10 @@ import {
   dr,
   med,
   shal,
+  GraphicBlock1,
+  GraphicBlock2,
+  GraphicBlock3,
+  GraphicBlock4,
 } from "./../assets";
 import { brand1, brand3, brand4 } from "./../assets";
 export const HeroTagLine =
@@ -57,6 +61,21 @@ type brandPromoTypes = {
   name: string;
   image: string;
 };
+
+export const graphicImage = [
+  {
+    imageLink: GraphicBlock1,
+  },
+  {
+    imageLink: GraphicBlock2,
+  },
+  {
+    imageLink: GraphicBlock3,
+  },
+  {
+    imageLink: GraphicBlock4,
+  },
+];
 
 export const brandPromo: brandPromoTypes[] = [
   {

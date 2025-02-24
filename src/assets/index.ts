@@ -5,8 +5,13 @@ import MenuIcon from "./imgAssets/menu-icon.webp";
 import msg_icon from "./imgAssets/msg-icon.webp";
 import programIcon1 from "./imgAssets/program-icon-1.webp";
 import programIcon2 from "./imgAssets/program-icon-2.webp";
-
 import programIcon3 from "./imgAssets/program-icon-3.webp";
+
+//GraphicBlock
+import GraphicBlock1 from "./GraphicBlock/GraphicBlock1.jpeg";
+import GraphicBlock2 from "./GraphicBlock/GraphicBlock2.jpeg";
+import GraphicBlock3 from "./GraphicBlock/GraphicBlock3.jpeg";
+import GraphicBlock4 from "./GraphicBlock/GraphicBlock4.jpeg";
 
 //banner
 import seoban from "./banner/seo.webp";
@@ -76,6 +81,10 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  GraphicBlock1,
+  GraphicBlock2,
+  GraphicBlock3,
+  GraphicBlock4,
   GraphicDesign2,
   shal,
   sen,

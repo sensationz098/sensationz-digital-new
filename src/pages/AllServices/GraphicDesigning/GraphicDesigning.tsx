@@ -13,6 +13,7 @@ import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 // import img2 from "../../../assets/services-img/graphic-design2.jpg";
 
 import BeatLoader from "react-spinners/BeatLoader";
+import { GraphicBlock } from "../../../Components/ServicePageComponents/GraphicBlock/GraphicBlock";
 
 export default function GraphicDesigning() {
   const [loading, setLoading] = useState(false);
@@ -62,6 +63,12 @@ export default function GraphicDesigning() {
             li3={"& many more"}
             rightImg={GraphicDesign2}
           />
+
+          <div className="container ">
+            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            {/* <Clients /> */}
+            <GraphicBlock />
+          </div>
 
           <Block4
             color={"#a3cef1"}

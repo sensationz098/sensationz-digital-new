@@ -69,6 +69,19 @@ export default function VideoEditing() {
             rightImg={img2}
           />
 
+          <div className="container">
+            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            {/* <Clients /> */}
+            <div className="video-container container">
+              <iframe
+                src="https://drive.google.com/file/d/16rnU02ODsr3Gbf9mGyH7y6BUoVUoujUX/preview"
+                width="740"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+
           <Block4
             color={"#aaf683"}
             Experience={
