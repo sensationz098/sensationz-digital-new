@@ -70,7 +70,10 @@ export default function VideoEditing() {
           />
 
           <div className="container">
-            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            <Title
+              title={"Editing"}
+              subtitle={"Turning Footage into Masterpieces"}
+            />
             {/* <Clients /> */}
             <div className="video-container container">
               <iframe
@@ -83,7 +86,7 @@ export default function VideoEditing() {
           </div>
 
           <Block4
-            color={"#aaf683"}
+            color={"#d6cbd3"}
             Experience={
               "Transforming Ideas into Stunning Visual Stories.With years of experience in video editing, we turn raw footage into captivating, high-quality videos that resonate with your audience. Our expertise ensures your message is communicated clearly and creatively."
             }

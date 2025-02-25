@@ -63,7 +63,7 @@ export default function Seo() {
           />
 
           <Block4
-            color={"#fcbf49"}
+            color={"#bdcebe"}
             Experience={
               "Unlock the Power of SEO to Drive Growth. With years of proven expertise in search engine optimization, we deliver results-driven strategies that boost your visibility, traffic, and rankings across search engines."
             }

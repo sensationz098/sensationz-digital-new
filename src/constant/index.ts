@@ -34,6 +34,10 @@ import {
   GraphicBlock2,
   GraphicBlock3,
   GraphicBlock4,
+  performing_arts,
+  production,
+  synaSite,
+  bollywood,
 } from "./../assets";
 import { brand1, brand3, brand4 } from "./../assets";
 export const HeroTagLine =
@@ -160,129 +164,41 @@ export const data: data[] = [
   },
   {
     id: 2,
-    image: client2,
-    name: "Naira Sri",
-    username: "cutiekuhoo",
-    link: "https://www.instagram.com/cutiekuhoo",
-  },
-  {
-    id: 3,
-    image: client3,
-    name: "Virender Sharma",
-    username: "virendersharmababa_ji",
-    link: "https://www.instagram.com/virendersharmababa_ji",
-  },
-
-  {
-    id: 4,
-    image: client4,
-    name: "Glance Fire & Safety",
-    username: "glanceenterprise",
-    link: "https://www.instagram.com/glanceenterprise",
-  },
-  {
-    id: 5,
-    image: client5,
-    name: "Suchitha joshi",
-    username: "p5yoga_wellness",
-    link: "https://www.instagram.com/p5yoga_wellness",
-  },
-  {
-    id: 6,
-    image: client6,
-    name: "Aiman Mehtab",
-    username: "thetribeofhealing",
-    link: "https://www.instagram.com/thetribeofhealing",
-  },
-  {
-    id: 7,
-    image: client7,
-    name: "Durvam's Diary",
-    username: "durvasumedha",
-    link: "https://www.instagram.com/durvasumedha",
-  },
-
-  {
-    id: 8,
-    image: client8,
-    name: "Dr. Mukesh Kumar",
-    username: "urocaredrmukeshkumarvijay",
-    link: "https://www.instagram.com/urocaredrmukeshkumarvijay",
-  },
-
-  {
-    id: 9,
-    image: client9,
-    name: "Adit Sinha",
-    username: "aditsinhashow",
-    link: "https://www.instagram.com/aditsinhashow",
-  },
-  {
-    id: 10,
-    image: client10,
-    name: "Avi Sinha",
-    username: "avisinhashow",
-    link: "https://www.instagram.com/avisinhashow",
-  },
-  {
-    id: 11,
-    image: client11,
-    name: "Yuva 4 Life",
-    username: "yuva4life.in",
-    link: "https://www.instagram.com/yuva4life.in",
-  },
-  {
-    id: 12,
-    image: client12,
-    name: "Shveta sharma",
-    username: "shvetazworld",
-    link: "https://www.instagram.com/shvetazworld",
-  },
-  {
-    id: 13,
-    image: client13,
-    name: "NUB'S",
-    username: "nubs_nitika_",
-    link: "https://www.instagram.com/nubs_nitika_",
-  },
-
-  {
-    id: 14,
     image: med,
     name: "Sensationz Media & Arts Pvt. Ltd.",
     username: "SensationzMediaArtsPvtLtd",
     link: "https://www.youtube.com/@SensationzMediaArtsPvtLtd",
   },
   {
-    id: 15,
+    id: 3,
     image: dr,
     name: "Urocare - Dr. Mukesh Kumar Vijay",
     username: "UrocareDrMukeshKumarVijay",
     link: "https://www.youtube.com/@UrocareDrMukeshKumarVijay",
   },
   {
-    id: 16,
+    id: 4,
     image: sen,
     name: "Sensationz Performing Arts",
     username: "sensationz_performing_arts",
     link: "https://www.instagram.com/sensationz_performing_arts",
   },
   {
-    id: 17,
+    id: 5,
     image: shal,
     name: "Shalinie Raghav",
     username: "shalinieraghav",
     link: "https://www.instagram.com/shalinieraghav",
   },
   {
-    id: 18,
+    id: 6,
     image: shimmer,
     name: "Shimmer_holds",
     username: "shimmer_holds",
     link: "https://www.instagram.com/shimmer_holds/",
   },
   {
-    id: 19,
+    id: 7,
     image: creating,
     name: "Creating Vibes",
     username: "creating_vibes_ngo",
@@ -290,10 +206,43 @@ export const data: data[] = [
   },
 
   {
-    id: 20,
+    id: 8,
     image: syna,
     name: "Syna Anand",
     username: "synaa_anand",
     link: "https://www.instagram.com/synaa_anand",
+  },
+];
+
+type WebComp = {
+  id: number;
+  name: string;
+  link: string;
+  image: string;
+};
+export const WebData: WebComp[] = [
+  {
+    id: 1,
+    name: "Sensationz Performing and Arts",
+    link: "https://sensationzperformingarts.com",
+    image: performing_arts,
+  },
+  {
+    id: 2,
+    name: "Sensationz Production",
+    link: "https://sensationzproductions.com/",
+    image: production,
+  },
+  {
+    id: 3,
+    name: "Syna Anand",
+    link: "https://synaanand.com/",
+    image: synaSite,
+  },
+  {
+    id: 4,
+    name: "The Bollywood Faces",
+    link: "https://thebollywoodfaces.com/",
+    image: bollywood,
   },
 ];

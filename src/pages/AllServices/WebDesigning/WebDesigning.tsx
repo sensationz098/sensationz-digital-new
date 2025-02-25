@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./WebDesigningStyle.css";
 import { webban } from "./../../../assets";
+import { WebDesign } from "./../../../Components/webDesign/webDesign";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
@@ -65,6 +66,11 @@ export default function WebDesigning() {
             rightImg={img2}
           />
 
+          <div className="container">
+            <Title title={"Projects"} subtitle={"WE LOVE OUR WORKS"} />
+            {/* <Clients /> */}
+            <WebDesign />
+          </div>
           <Block4
             color={"#f19c79"}
             Experience={
@@ -83,7 +89,6 @@ export default function WebDesigning() {
               "Where Design Meets Innovation. We blend creativity with functionality to design websites that are not only visually appealing but also intuitive and optimized for performance. Our design process brings fresh ideas and forward-thinking solutions to every project."
             }
           />
-
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />

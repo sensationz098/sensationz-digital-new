@@ -13,6 +13,12 @@ import GraphicBlock2 from "./GraphicBlock/GraphicBlock2.jpeg";
 import GraphicBlock3 from "./GraphicBlock/GraphicBlock3.jpeg";
 import GraphicBlock4 from "./GraphicBlock/GraphicBlock4.jpeg";
 
+//WebDesign
+import performing_arts from "./webDesign/performing art.webp";
+import production from "./webDesign/production.webp";
+import synaSite from "./webDesign/synaSite.webp";
+import bollywood from "./webDesign/bollywood.webp";
+
 //banner
 import seoban from "./banner/seo.webp";
 import webban from "./banner/webDesigning.webp";
@@ -81,6 +87,10 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  bollywood,
+  synaSite,
+  production,
+  performing_arts,
   GraphicBlock1,
   GraphicBlock2,
   GraphicBlock3,

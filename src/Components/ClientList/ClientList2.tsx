@@ -8,27 +8,19 @@ type ClientListPropsType = {
   image: string;
   name: string;
   username: string;
-  link: string;
 };
 
-function ClientListElement({
-  image,
-  name,
-  username,
-  link,
-}: ClientListPropsType) {
+function ClientListElement({ image, name, username }: ClientListPropsType) {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
-      <div className="list  kl">
-        <div className="imgBox">
-          <img src={image} alt="" className="list-img" />
-        </div>
-        <div className="content">
-          <h4>{name}</h4>
-          <p>{username}</p>
-        </div>
+    <div className="list  kl">
+      <div className="imgBox">
+        <img src={image} alt="" className="list-img" />
       </div>
-    </a>
+      <div className="content">
+        <h4>{name}</h4>
+        <p>{username}</p>
+      </div>
+    </div>
   );
 }
 
@@ -37,29 +29,30 @@ export default function ClientList1({
 }: {
   brandPromo: ClientListPropsType[];
 }) {
-  const [showAll, setShowAll] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  const closeModal = () => setSelectedImage(null);
   // Toggle the state when the button is clicked
-  const handleViewAllClick = () => {
-    setShowAll(!showAll);
-  };
 
   // Determine how many items to show based on the `showAll` state
-  const displayedItems = showAll ? brandPromo : brandPromo.slice(0, 10);
-
   return (
     <>
+      {selectedImage && (
+        <div className="modal" onClick={closeModal}>
+          <span className="close">&times;</span>
+          <img className="modal-content" src={selectedImage} alt="Modal" />
+        </div>
+      )}
       <div className="list-2 stiff-block">
         <div className="client-box">
           <div className="ko">
-            {displayedItems.map((ind) => (
-              <div key={ind.id}>
+            {brandPromo.map((ind) => (
+              <div key={ind.id} onClick={() => setSelectedImage(ind.image)}>
                 <ClientListElement
                   id={ind.id}
                   image={ind.image}
                   name={ind.name}
                   username={ind.username}
-                  link={ind.link}
                 />
               </div>
             ))}
@@ -67,14 +60,7 @@ export default function ClientList1({
 
           {/* View All Button */}
         </div>
-        <div className="viewBtn">
-          <button
-            onClick={handleViewAllClick}
-            className="client-box btn dark-btn view-all-btn"
-          >
-            {showAll ? "View Less" : "View All"}
-          </button>
-        </div>
+        <div className="viewBtn"></div>
       </div>
     </>
   );

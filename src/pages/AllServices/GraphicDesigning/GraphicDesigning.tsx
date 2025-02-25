@@ -65,7 +65,7 @@ export default function GraphicDesigning() {
           />
 
           <div className="container ">
-            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            <Title title={"Designs"} subtitle={"Our Graphic Design Showcase"} />
             {/* <Clients /> */}
             <GraphicBlock />
           </div>
