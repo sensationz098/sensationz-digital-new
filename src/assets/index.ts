@@ -18,6 +18,8 @@ import performing_arts from "./webDesign/performing art.webp";
 import production from "./webDesign/production.webp";
 import synaSite from "./webDesign/synaSite.webp";
 import bollywood from "./webDesign/bollywood.webp";
+import babaji from "./webDesign/babaji.webp";
+import media from "./webDesign/media.webp";
 
 //banner
 import seoban from "./banner/seo.webp";
@@ -87,6 +89,8 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  media,
+  babaji,
   bollywood,
   synaSite,
   production,

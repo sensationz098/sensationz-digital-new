@@ -26,6 +26,8 @@ import {
   production,
   synaSite,
   bollywood,
+  babaji,
+  media,
 } from "./../assets";
 import { brand1, brand3, brand4 } from "./../assets";
 export const HeroTagLine =
@@ -232,5 +234,17 @@ export const WebData: WebComp[] = [
     name: "The Bollywood Faces",
     link: "https://thebollywoodfaces.com/",
     image: bollywood,
+  },
+  {
+    id: 5,
+    name: "Sensationz Media and Arts",
+    link: "https://sensationzmediaandarts.com/",
+    image: media,
+  },
+  {
+    id: 6,
+    name: "Virender Sharma Babaji",
+    link: "https://virendersharmababaji.com/",
+    image: babaji,
   },
 ];
