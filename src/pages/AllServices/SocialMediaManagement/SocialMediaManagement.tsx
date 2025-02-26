@@ -68,7 +68,7 @@ export default function SocialMediaManagement() {
             rightImg={img2}
           />
           <div className="container">
-            <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+            <Title title={""} subtitle={"Look at Our Social Media Handles"} />
             {/* <Clients /> */}
             <ClientList1 brandPromo={data} />
           </div>
