@@ -52,17 +52,14 @@ export default function WebDesigning() {
               "We take your target audience into consideration when we develop and design your website, making sure it provides an excellent user experience with clear navigation, improved content, and striking visual features. In order to help your website rank higher among the millions of other websites on the internet, we also make sure it has the greatest Search Engine Optimization (SEO) available."
             }
           />
-          <Block2
-            quote={`With the help of our website design and development service, you can easily improve your company's online visibility and draw in more customers."`}
-          />
           <Block3
-            block3Title={"Search Engine Optimization Generate 100% Traffic"}
+            block3Title={"Web Design Service: Craft Your Digital Identity"}
             block3para={
-              "Unlock the untapped potential of Search Engine Optimization (SEO) and revolutionize your digital presence. Harnessing innovative strategies and cutting-edge techniques, our approach guarantees not just traffic, but an unstoppable surge of engaged visitors. Experience the thrill of dominating search rankings and unleashing the full force of 100% organic traffic, propelling your brand to unprecedented heights of online success."
+              "Transform your online presence with our exceptional web design services. Our team specializes in creating visually stunning, responsive websites tailored to your business needs. Whether it’s an e-commerce platform or a simple portfolio site, we ensure your website isn’t just beautiful—it’s functional and user-friendly. With innovative design concepts and the latest technologies, we deliver websites that engage visitors and convert them into loyal customers. Elevate your digital identity and create lasting impressions with a custom website that’s as unique as your brand."
             }
-            li1={"Innovate Strategically"}
-            li2={"Keyword Analysis"}
-            li3={"Empower Efficiently"}
+            li1={"Design with Purpose"}
+            li2={"User-Centric Approach"}
+            li3={"Responsive & Mobile-Ready"}
             rightImg={img2}
           />
 
@@ -88,6 +85,9 @@ export default function WebDesigning() {
             Creative={
               "Where Design Meets Innovation. We blend creativity with functionality to design websites that are not only visually appealing but also intuitive and optimized for performance. Our design process brings fresh ideas and forward-thinking solutions to every project."
             }
+          />
+          <Block2
+            quote={`With the help of our website design and development service, you can easily improve your company's online visibility and draw in more customers."`}
           />
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />

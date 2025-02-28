@@ -52,9 +52,6 @@ export default function SocialMediaManagement() {
               "Through consistent monitoring, analysis, and optimization, we proactively engage with your followers, cultivate meaningful relationships, and drive measurable results. Whether it’s increasing brand awareness, driving website traffic, or generating leads, Sensationz Digital is committed to maximizing your social media ROI and helping you achieve your digital objectives."
             }
           />
-          <Block2
-            quote={`"We are the architects of solutions, offering a palette of services tailored to your needs"`}
-          />
           <Block3
             block3Title={
               "We are the architects of solutions, offering a palette of services tailored to your needs"
@@ -90,6 +87,9 @@ export default function SocialMediaManagement() {
             Creative={
               "Content That Connects and Inspires. We create innovative and eye-catching content that resonates with your target audience. From visually stunning posts to engaging stories, we help your brand stand out and drive meaningful interactions."
             }
+          />
+          <Block2
+            quote={`"We are the architects of solutions, offering a palette of services tailored to your needs"`}
           />
 
           <div className="container">

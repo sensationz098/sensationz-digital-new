@@ -28,6 +28,10 @@ import {
   bollywood,
   babaji,
   media,
+  seoblock,
+  seoblock1,
+  seoblock2,
+  seoblock3,
 } from "./../assets";
 import { brand1, brand3, brand4 } from "./../assets";
 export const HeroTagLine =
@@ -50,12 +54,26 @@ type data = {
   link: string;
 };
 
-type brandPromoTypes = {
+export type brandPromoTypes = {
   id: number;
   name: string;
   image: string;
 };
 
+export const seoImage = [
+  {
+    imageLink: seoblock,
+  },
+  {
+    imageLink: seoblock1,
+  },
+  {
+    imageLink: seoblock2,
+  },
+  {
+    imageLink: seoblock3,
+  },
+];
 export const graphicImage = [
   {
     imageLink: GraphicBlock1,

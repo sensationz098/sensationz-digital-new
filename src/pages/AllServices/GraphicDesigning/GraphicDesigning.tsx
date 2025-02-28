@@ -9,6 +9,7 @@ import Block4 from "../../../Components/ServicePageComponents/Block4/Block4";
 import Contact from "../../../Components/Contact/Contact";
 import Title from "../../../Components/Title/Title";
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
+import { graphicImage } from "../../../constant";
 // import img1 from "../../../assets/services-img/graphic-design.jpg";
 // import img2 from "../../../assets/services-img/graphic-design2.jpg";
 
@@ -48,9 +49,6 @@ export default function GraphicDesigning() {
             }
             para2=""
           />
-          <Block2
-            quote={`We offer modern software for visual design to create attractive concepts for you."`}
-          />
           <Block3
             block3Title={
               "We offer modern software for visual design to create attractive concepts for you."
@@ -67,7 +65,7 @@ export default function GraphicDesigning() {
           <div className="container ">
             <Title title={"Designs"} subtitle={"Our Graphic Design Showcase"} />
             {/* <Clients /> */}
-            <GraphicBlock />
+            <GraphicBlock graphicImage={graphicImage} />
           </div>
 
           <Block4
@@ -89,6 +87,9 @@ export default function GraphicDesigning() {
             }
           />
 
+          <Block2
+            quote={`We offer modern software for visual design to create attractive concepts for you."`}
+          />
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />

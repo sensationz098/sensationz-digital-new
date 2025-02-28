@@ -52,19 +52,14 @@ export default function BrandPromotion() {
               "Through consistent monitoring, analysis, and optimization, we proactively engage with your followers, cultivate meaningful relationships, and drive measurable results. Whether it’s increasing brand awareness, driving website traffic, or generating leads, Sensationz Digital is committed to maximizing your social media ROI and helping you achieve your digital objectives."
             }
           />
-          <Block2
-            quote={`"We are the architects of solutions, offering a palette of services tailored to your needs"`}
-          />
           <Block3
-            block3Title={
-              "We are the architects of solutions, offering a palette of services tailored to your needs"
-            }
+            block3Title={"Brand Promotions: Ignite Your Brand’s Growth"}
             block3para={
-              "At Sensationz Digital, we offer comprehensive social media solutions tailored to elevate your online presence and drive results. From engaging content creation to captivating video shoots and targeted social media ads, we provide a full suite of services to help you stand out in the digital landscape.                     Our team of skilled content creators is dedicated to crafting compelling and relevant content that resonates with your audience. From eye-catching graphics to engaging captions, we ensure that every piece of content reflects your brand’s unique voice and identity. Whether it’s blog posts, infographics, or social media posts, we have the creativity and expertise to bring your ideas to life and captivate your audience."
+              "Elevate your brand’s visibility and impact through our expert brand promotion strategies. We combine creativity and analytics to design campaigns that not only build brand awareness but also foster genuine connections with your target audience. From social media campaigns to influencer partnerships, we leverage every channel to give your brand the exposure it deserves. Our tailored promotions boost engagement and drive sales, ensuring your brand stands out in a crowded market and resonates with your audience."
             }
-            li1={"Facebook"}
-            li2={"Instagram"}
-            li3={"& many more"}
+            li1={"Amplify Your Presence"}
+            li2={"Targeted Campaigns"}
+            li3={"Drive Engagement & Loyalty"}
             rightImg={img2}
           />
 
@@ -93,6 +88,9 @@ export default function BrandPromotion() {
             }
           />
 
+          <Block2
+            quote={`"We are the architects of solutions, offering a palette of services tailored to your needs"`}
+          />
           <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />

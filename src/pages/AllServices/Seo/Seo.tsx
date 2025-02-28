@@ -12,6 +12,8 @@ import Title from "../../../Components/Title/Title";
 
 import BeatLoader from "react-spinners/BeatLoader";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
+import { GraphicBlock } from "../../../Components/ServicePageComponents/GraphicBlock/GraphicBlock";
+import { seoImage } from "../../../constant";
 
 export default function Seo() {
   const [loading, setLoading] = useState(false);
@@ -48,9 +50,6 @@ export default function Seo() {
               "Seen for the first time in digital marketing terms, SEO is short for search engine optimization. It’s not as difficult as it sounds. The process of optimizing websites and web content for search engines to get the highest possible ranking in search results is known as search engine optimization, or SEO. Being one of Austin’s most highly regarded online"
             }
           />
-          <Block2
-            quote={`"WE HAVE A MISSION TO IMPROVE THE TRAFFIC ON YOUR WEBSITE"`}
-          />
           <Block3
             block3Title={"Search Engine Optimization Generate 100% Traffic"}
             block3para={
@@ -61,7 +60,11 @@ export default function Seo() {
             li3={"Empower Efficiently"}
             rightImg={img2}
           />
-
+          <div className="container ">
+            <Title title={"SEO"} subtitle={"Showcasing Our SEO Success "} />
+            {/* <Clients /> */}
+            <GraphicBlock graphicImage={seoImage} />
+          </div>
           <Block4
             color={"#bdcebe"}
             Experience={
@@ -79,6 +82,9 @@ export default function Seo() {
             Creative={
               "SEO with a Creative Edge. We blend technical expertise with creative approaches to make your website stand out in search engine results, optimizing it for both users and search engines to drive more qualified traffic."
             }
+          />
+          <Block2
+            quote={`"WE HAVE A MISSION TO IMPROVE THE TRAFFIC ON YOUR WEBSITE"`}
           />
 
           <div className="container">

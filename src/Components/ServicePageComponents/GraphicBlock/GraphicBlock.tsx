@@ -1,8 +1,14 @@
 import { useState } from "react";
-import { graphicImage } from "../../../constant";
-import "./GraphicBlock.css"; // Import the CSS file
 
-export const GraphicBlock = () => {
+import "./GraphicBlock.css"; // Import the CSS file
+type gratphic = {
+  imageLink: string;
+}[];
+
+interface GraphicBlockProps {
+  graphicImage: gratphic;
+}
+export function GraphicBlock({ graphicImage }: GraphicBlockProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const closeModal = () => setSelectedImage(null);
@@ -29,4 +35,4 @@ export const GraphicBlock = () => {
       </div>
     </>
   );
-};
+}

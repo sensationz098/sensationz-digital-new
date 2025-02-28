@@ -29,7 +29,7 @@ export default function VideoEditing() {
       {loading ? (
         <div className="loader-cover">
           <BeatLoader
-            color={"#ff0000"}
+            color={"#bdcebe"}
             loading={loading}
             size={20}
             aria-label="Loading bouncer"
@@ -52,9 +52,6 @@ export default function VideoEditing() {
             para2={
               "We have edited videos for a variety of industries, including the Food, Education, Music, Real Estate, ECommerce, Manufacturing, Finance, Technology, Infrastructure, and Wedding Events. With more than ten years of multi-industry and multimedia experience, we have completed both simple and challenging video editing projects all around the world.  Additionally, we help Digital Marketing Agencies with their social media videos and advertisements. Working on video post-production projects for production companies in the US, UK, Canada, Australia, New Zealand, Europe, and Gulf countries is part of our experience."
             }
-          />
-          <Block2
-            quote={`"Unlock Your Creative Potential: Discover Our State-of-the-Art Video Editing Tools"`}
           />
           <Block3
             block3Title={
@@ -102,6 +99,9 @@ export default function VideoEditing() {
             Creative={
               "Unleashing the Power of Creativity in Every Frame. We blend creativity with technical expertise to craft visually compelling videos that captivate and engage. Whether it’s a sleek corporate video or a dynamic social media clip, we add that creative touch that sets your video apart."
             }
+          />
+          <Block2
+            quote={`"Unlock Your Creative Potential: Discover Our State-of-the-Art Video Editing Tools"`}
           />
 
           <div className="container">

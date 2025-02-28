@@ -7,6 +7,12 @@ import programIcon1 from "./imgAssets/program-icon-1.webp";
 import programIcon2 from "./imgAssets/program-icon-2.webp";
 import programIcon3 from "./imgAssets/program-icon-3.webp";
 
+//Seo Block
+import seoblock from "./seoImage/seo1.webp";
+import seoblock1 from "./seoImage/seo2.webp";
+import seoblock2 from "./seoImage/seo3.webp";
+import seoblock3 from "./seoImage/seo4.webp";
+
 //GraphicBlock
 import GraphicBlock1 from "./GraphicBlock/GraphicBlock1.jpeg";
 import GraphicBlock2 from "./GraphicBlock/GraphicBlock2.jpeg";
@@ -89,6 +95,10 @@ import clientImage3 from "./imgAssets/client-review3.webp";
 import testVideo from "./imgAssets/testimonial.mp4";
 
 export {
+  seoblock,
+  seoblock1,
+  seoblock2,
+  seoblock3,
   media,
   babaji,
   bollywood,
